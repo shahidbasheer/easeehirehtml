@@ -1,0 +1,300 @@
+/*this stylesheet contains global styles for both header and footer, all site pages will have these default styles
+=====================================================================================================================*/
+
+
+
+/*header global styles starts here
+======================================================*/
+.navbar-default {
+  background-color: white;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand img {
+  max-width: 180px;
+}
+
+.navbar-brand {
+  -webkit-box-shadow: 3px 0 5px 0px rgb(196, 196, 196);
+          box-shadow: 3px 0 5px 0px rgb(196, 196, 196);
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+  font-size: .9em;
+}
+
+.navbar-nav a {
+  color: #373643;
+  font-weight: 600;
+}
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: transparent;
+  color: #2555ef;
+}
+
+
+#menu_btn {
+  background-color: #2555ef;
+  border-radius: 5px;
+  padding: 5px 0 3px 0;
+  position: relative;
+  top: -5px;
+}
+
+#menu_btn a {
+  color: white;
+}
+
+/*header global styles ends here
+===================================================*/
+
+
+
+/*footer global styles starts here
+====================================================*/
+
+/*footer_main area includes logo, para, social icons, sitemap and call to action buttons*/
+
+#footer_main {
+  background-color: #373743;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#footer_main img {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#footer_main img+p {
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+#footer_socials {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-align: center;
+}
+
+#footer_socials:before,
+#footer_socials:after {
+  content: " ";
+  display: inline-block;
+  width: 35%;
+  height: 1px;
+  background-color: #474a57;
+}
+
+#footer_socials:before {
+  margin-right: 20px;
+}
+
+#footer_socials:after {
+  margin-left: 20px;
+}
+
+#footer_socials li {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+
+#footer_socials li a {
+  color: white;
+}
+
+#footer_facebook {
+  background-color: #3b5998;
+}
+
+#footer_twitter {
+  background-color: #55acee;
+}
+
+#footer_google_plus {
+  background-color: #dc4e41;
+}
+
+#footer_linkedin {
+  background-color: #007ab9;
+}
+
+#footer_rss {
+  background-color: #f4b459;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer ul li {
+  margin: 0;
+  margin-top: 10px;
+}
+
+
+#site_map {
+  margin-bottom: 40px;
+}
+
+#footer_buttons button{
+  display: block;
+  width: 90%;
+  background-color: #444653;
+  border-color: #444653;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer_buttons button:hover {
+  background-color: #2455ef;
+  border-color: #2455ef;
+
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+footer p,
+footer small,
+footer ul li a {
+  color: #778191;
+}
+
+footer ul li a:hover {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#footer_h4_2 {
+  margin-top: 40px;
+}
+
+
+/*footer bottom bar includes both copyright info and site general page links*/
+
+#bottom_bar {
+  padding: 5px 0;
+  background-color: #272530;
+}
+
+#bottom_bar ul {
+  margin-top: -10px;
+  text-align: right;
+}
+
+/*footer global styles ends here
+=======================================================*/
+
+
+
+
+
+/*media query which target elements on screen size >768px and <992px
+used this media query to make sure menubar is properly visible without any bugs, what i did here is I centered the logo and centered the menu items so it looks nice on tablet and phablets*/
+@media(max-width:992px) and (min-width:768px) {
+  .navbar-right {
+    float: left!important;
+    margin-right: 0!important;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-brand {
+    display: block;
+    width: 100%;
+    -webkit-box-shadow: 0 0 5px 0px rgb(196, 196, 196);
+            box-shadow: 0 0 5px 0px rgb(196, 196, 196);
+  }
+
+  .navbar-brand img {
+    margin: 0 auto;
+  }
+
+
+}
+
+
+
+
+/*media query which target elements on screen size >768px
+used this media query to insure proper padding in menu items*/
+@media(min-width:768px) {
+  .navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+
+/*media query which target elements on screen size <768px
+used this media query to make sure everything is responsive and fit on small screen sizes properly*/
+@media(max-width:768px) {
+
+  #menu_btn a {
+    text-align: center;
+  }
+
+  #footer_socials:before,
+  #footer_socials:after {
+    width: 100%;
+    margin: 0;
+  }
+
+  #site_map {
+    text-align: center;
+  }
+
+  #site_map h4 {
+    margin-top: 40px;
+  }
+
+  #site_map [class*="col-"]:first-of-type h4 {
+    margin-top: 0;
+  }
+
+  #footer_buttons button {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  #bottom_bar small {
+    display: block;
+    text-align: center;
+  }
+
+  #bottom_bar ul {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+}
