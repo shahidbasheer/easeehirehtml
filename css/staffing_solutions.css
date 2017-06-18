@@ -1,0 +1,46 @@
+#hero {
+  min-height: 300px;
+}
+
+#hero h1 {
+  margin-top: 80px;
+  color: white;
+}
+
+#hero h3 {
+  margin-top: 30px;
+  text-align: left;
+  color: #bfc6d9;
+}
+
+#hero a.btn {
+  border-radius: 5px;
+  margin-top: 120px;
+  padding: 15px 30px;
+}
+
+#services .container {
+  top: 0;
+}
+
+#services .content_holder p {
+  min-height : 150px;
+}
+
+
+#services .content_holder a.btn {
+  background-color: #f8f9fb;
+  color: #808998;
+  border: 0;
+
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#services .content_holder a.btn:hover {
+  background-color: #2555ef;
+  color: white;
+
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
