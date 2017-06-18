@@ -1,6 +1,11 @@
 /*this stylesheet contains global styles for both header and footer, all site pages will have these default styles
 =====================================================================================================================*/
 
+* {
+  font-family: "franklin-gothic-urw", sans-serif;
+  /*font-weight : "light";*/
+}
+
 .button_holder {
   text-align: center;
 }
@@ -20,6 +25,7 @@
   background-color: white;
   border: 0;
   margin-bottom: 0;
+
 }
 
 .navbar-brand img {
@@ -40,7 +46,7 @@
 
 .navbar-nav a {
   color: #373643;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
