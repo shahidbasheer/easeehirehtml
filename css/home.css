@@ -1,0 +1,368 @@
+
+/*hero section styling starts here
+================================================*/
+#hero {
+  min-height : 400px;
+  background-image: url('../images/hero_image.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
+#hero h4,
+#hero h3{
+  color: white;
+  text-align: center;
+}
+
+#hero h3 {
+  font-size: 1.3em;
+  font-weight: normal!important;
+  margin-top: 7%;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+#hero h4 {
+  font-size: 2.4em;
+  letter-spacing: 2px;
+}
+
+#hero .button_holder {
+  margin-top: 40px;
+}
+
+#hero a.btn {
+  background-color: #2555ef;
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+
+/*hero section styling ends here
+================================================*/
+
+
+
+/*find hire section styling starts here (find hire section lies just below the hero section)
+================================================*/
+
+#find_hire {
+  padding: 80px 0 100px 0;
+}
+
+#find_hire h2 {
+  text-align: center;
+  color: #373643;
+}
+
+#find_hire p {
+  max-width: 55%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+  line-height: 40px;
+  color: #bfbfbf;
+}
+
+#find_hire a.btn {
+  background-color: #f8f9fb;
+  border: 0;
+  padding: 10px 35px;
+  -webkit-box-shadow: 1px 1px 6px 0 #bfbfbf;
+          box-shadow: 1px 1px 6px 0 #bfbfbf;
+  color: #778191;
+}
+
+#find_hire .arrow {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  color: #2555ef;
+}
+
+/*find hire section styling ends here
+================================================*/
+
+
+
+/*services section styling starts here
+================================================*/
+
+#services .container {
+  position: relative;
+  top: -245px;
+}
+
+#services .container .row {
+  margin-bottom: 50px;
+}
+
+#services #bg_bar {
+  min-height: 345px;
+  background-color: #dfe6fd;
+}
+
+#services .service_holder {
+  padding: 5px;
+  border: 1px solid #ebebeb;
+  background-color: white;
+}
+
+#services .service_holder:hover {
+  -webkit-box-shadow: 1px 1px 15px 0 #c9c9c9;
+          box-shadow: 1px 1px 15px 0 #c9c9c9;
+
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+
+#services .img_holder {
+  max-width: 350px;
+  max-height: 240px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#services .img_holder img {
+  height: 100%;
+}
+
+.img_holder .hover_overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33,72,195,.8);
+  text-align: center;
+
+  -webkit-transition: all .5s .2s;
+  transition: all .5s .2s;
+}
+
+.img_holder .hover_overlay span.fa {
+  font-size: 50px;
+  line-height: 240px;
+  color: white;
+  opacity: 0;
+
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.img_holder:hover .hover_overlay,
+.service_holder:hover .hover_overlay {
+  top: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.img_holder:hover .hover_overlay span.fa,
+.service_holder:hover .hover_overlay span.fa {
+  opacity: 1;
+  -webkit-transition: all 1s .4s;
+  transition: all 1s .4s;
+}
+
+
+
+
+#services .content_holder {
+  padding: 0 10px;
+  padding-bottom : 35px;
+}
+
+#services .content_holder h3 {
+  margin-bottom: 20px;
+  color: #373643;
+}
+
+#services .content_holder h3:hover,
+#services .service_holder:hover .content_holder h3 {
+  color: #2555ef!important;
+
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.service_holder .content_holder h3:after {
+  content: "\25b6";
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 10px;
+  position: relative;
+  top: -2px;
+  color: #bdccfa;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.service_holder:hover .content_holder h3:after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #2555ef;
+
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#services .content_holder p {
+  line-height: 25px;
+  font-size: .95em;
+}
+
+#services .content_holder p,
+#services .content_holder h5,
+#services .content_holder ul {
+  color : #778191;
+}
+
+#services .content_holder ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+  margin-top : 35px;
+}
+
+/*services section styling ends here
+================================================*/
+
+
+
+/*easee cloud section styling starts here
+================================================*/
+
+#easee_cloud {
+  position: relative;
+  top: -200px;
+}
+
+#easee_cloud .container {
+  min-height: 240px;
+  background-image: url('../images/easee_cloud.jpg');
+  background-size: cover;
+}
+
+#easee_cloud h3 {
+  color: #fcfdff;
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+#easee_cloud p {
+  color: #778191;
+  margin-top: 30px;
+  margin-left: 45px;
+  line-height: 25px;
+  font-size: 1.2em;
+}
+
+.btn_col {
+  text-align: center;
+}
+
+#read_more_button {
+  padding: 10px 40px;
+  border : 0;
+  color: #778191;
+  margin-top: 100px;
+}
+
+
+/*easee cloud section styling ends here
+================================================*/
+
+
+
+
+
+@media(max-width:1200px) {
+  #services .img_holder {
+    max-height: 200px;
+  }
+
+
+  #services .container {
+    top: -205px;
+  }
+}
+
+
+@media(max-width:992px) {
+  #find_hire p {
+    max-width: 90%;
+  }
+
+  #services .container {
+    top: -185px;
+  }
+
+  #services .service_holder {
+    min-height: 550px;
+  }
+
+  #services .img_holder {
+    max-height: 180px;
+  }
+
+  #services .content_holder h3 {
+    font-size: 1.5em;
+  }
+
+  #easee_cloud h3,
+  #easee_cloud p {
+    margin-left: 20px;
+  }
+
+}
+
+
+@media(max-width:768px) {
+  #hero h3 {
+    margin-top: 15%;
+  }
+
+  #bg_bar {
+    display: none;
+  }
+
+  #services .container {
+    top: 0px;
+  }
+
+  #services .service_holder {
+    max-width: 370px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #services .img_holder {
+    max-height: 240px;
+  }
+
+  #easee_cloud {
+    top: 0;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  #easee_cloud h3,
+  #easee_cloud p {
+    margin-left: 0;
+  }
+
+
+  #easee_cloud .container {
+    padding-bottom: 30px;
+  }
+
+}

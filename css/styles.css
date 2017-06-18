@@ -1,7 +1,18 @@
 /*this stylesheet contains global styles for both header and footer, all site pages will have these default styles
 =====================================================================================================================*/
 
+.button_holder {
+  text-align: center;
+}
 
+.icon_under_heading {
+  max-width: 40px;
+  margin: 0 auto;
+  text-align: center;
+  color: #2555ef;
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 10px;
+}
 
 /*header global styles starts here
 ======================================================*/
