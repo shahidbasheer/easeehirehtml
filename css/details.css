@@ -7,8 +7,9 @@
   color: white;
 }
 
-#hero h3 {
-  margin-top: 30px;
+#hero h3,
+#hero h2 {
+  margin-top: 20px;
   text-align: left;
   color: #bfc6d9;
 }
@@ -29,6 +30,11 @@
 #sidebar .list-group-item {
   border-radius: 0;
   border-color: #d9dfed;
+  border-bottom: 0;
+}
+
+#sidebar a:last-of-type .list-group-item {
+  border-bottom: 1px solid #d9dfed;
 }
 
 #sidebar a {
@@ -114,6 +120,7 @@ article .special img {
 
 #faq_accordion .panel-body {
   color: #788190;
+  font-size: 16px;
 }
 
 #faq_accordion a[aria-expanded="true"] {
@@ -158,6 +165,14 @@ article .special img {
 .listing li a:hover {
   text-decoration: none;
   color: #2555ef;
+}
+
+.listing h4 {
+  margin-top: 40px;
+}
+
+.listing h4 a:hover {
+  text-decoration: none;
 }
 
 .discussion {

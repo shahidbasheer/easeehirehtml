@@ -26,6 +26,10 @@ p {
   line-height: 1.55556!important;
 }
 
+.p_right {
+  padding-right: 15px;
+}
+
 .button_holder {
   text-align: center;
 }
@@ -45,7 +49,7 @@ p {
   background-color: white;
   border: 0;
   margin-bottom: 0;
-
+  padding: 10px 0;
 }
 
 .navbar-brand img {
@@ -53,8 +57,6 @@ p {
 }
 
 .navbar-brand {
-  -webkit-box-shadow: 3px 0 5px 0px rgb(196, 196, 196);
-          box-shadow: 3px 0 5px 0px rgb(196, 196, 196);
   height: 100%;
   margin-bottom: 0;
 }
@@ -67,8 +69,9 @@ p {
 .navbar-nav a {
   color: #373643;
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 1.15em;
 }
+
 
 
 .navbar-default .navbar-nav>.active>a,
@@ -79,7 +82,7 @@ p {
 
 
 #menu_btn {
-  background-color: #2555ef;
+  background-color: #85C525;
   border-radius: 5px;
   padding: 8px 0 7px 0;
   position: relative;
@@ -181,6 +184,7 @@ p {
 
 footer h4 {
   color: white;
+  margin-bottom: 25px;
 }
 
 footer ul {
@@ -232,14 +236,14 @@ footer ul li a:hover {
 }
 
 #footer_h4_2 {
-  margin-top: 40px;
+  margin-top: 55px;
 }
 
 
 /*footer bottom bar includes both copyright info and site general page links*/
 
 #bottom_bar {
-  padding: 5px 0;
+  padding: 20px 0;
   background-color: #272530;
 }
 
@@ -272,6 +276,11 @@ used this media query to make sure menubar is properly visible without any bugs,
     width: 100%;
     -webkit-box-shadow: 0 0 5px 0px rgb(196, 196, 196);
             box-shadow: 0 0 5px 0px rgb(196, 196, 196);
+  }
+
+  .navbar-nav a {
+    padding-left: 6px!important;
+    padding-right: 6px!important;
   }
 
   .navbar-brand img {

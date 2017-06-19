@@ -7,8 +7,9 @@
   color: white;
 }
 
-#hero h3 {
-  margin-top: 30px;
+#hero h3,
+#hero h2 {
+  margin-top: 20px;
   text-align: left;
   color: #bfc6d9;
 }
