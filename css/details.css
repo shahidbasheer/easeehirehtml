@@ -16,7 +16,7 @@
 #hero a.btn {
   border-radius: 5px;
   margin-top: 120px;
-  padding: 15px 30px;
+  margin-left: -20px;
 }
 
 
@@ -64,11 +64,15 @@ article h3 {
   color: #383745;
 }
 
+article h2 {
+  font-size: 36px;
+}
+
 article p {
   color: #848a98;
-  line-height: 25px;
-  font-size: 1.1em;
+  line-height: 1.55556;
   margin-bottom: 35px;
+  font-size: 17px!important;
 }
 
 article .special img {
@@ -103,8 +107,9 @@ article .special img {
 #faq_accordion .panel-heading a {
   display: block;
   color: #373540;
-  padding: 13px 10px;
+  padding: 19px 10px;
   text-decoration: none;
+  font-size: 22px;
 }
 
 #faq_accordion .panel-body {
@@ -130,11 +135,19 @@ article .special img {
 
 .listing ul {
   margin: 0;
-  padding-left: 15px;
+  margin-top: 30px;
+  padding-left: 0px;
+  list-style-type: none;
 }
 
 .listing ul li {
-  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.555556;
+  background-image: url('../images/list.svg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 18px 26px;
+  padding-left: 26px;
 }
 
 .listing li a {
@@ -154,13 +167,19 @@ article .special img {
 .discussion h3 {
   margin-top: 30px;
   margin-bottom: 40px;
-  font-size: 1.5em;
+  /*font-size: 1.5em;*/
+  font-size: 27px;
   font-weight: normal;
 }
 
 .tier_1_comment img,
 .tier_2_comment img {
   margin-right:15px;
+}
+
+.tier_1_comment h4,
+.tier_2_comment h4 {
+  font-weight: 500!important;
 }
 
 .tier_1_comment h4 a,
@@ -200,7 +219,7 @@ article .special img {
 }
 
 .post_a_comment h3 a {
-  font-size: .8em;
+  font-size: .7em;
   color: #272727;
 }
 
@@ -221,7 +240,7 @@ article .special img {
   border: 0;
   background-color: #2555ef;
   color: white;
-  font-size: 1.1em;
+  font-size: 18px;
 }
 
 

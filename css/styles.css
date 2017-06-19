@@ -7,6 +7,25 @@ font-style: normal;
 font-weight: 400!important;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 18px!important;
+  font-weight: 400!important;
+  line-height: 1.55556!important;
+}
+
 .button_holder {
   text-align: center;
 }
