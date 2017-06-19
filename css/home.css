@@ -66,6 +66,7 @@
   text-align: center;
   line-height: 40px;
   color: #bfbfbf;
+  font-size: 1.2em;
 }
 
 #find_hire a.btn {
@@ -217,7 +218,7 @@
 
 #services .content_holder p {
   line-height: 25px;
-  font-size: .95em;
+  font-size: 1.1em;
 }
 
 #services .content_holder p,

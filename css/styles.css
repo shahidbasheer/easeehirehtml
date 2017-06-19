@@ -2,8 +2,9 @@
 =====================================================================================================================*/
 
 * {
-  font-family: "franklin-gothic-urw", sans-serif;
-  /*font-weight : "light";*/
+  font-family: franklin-gothic-urw, sans-serif;
+font-style: normal;
+font-weight: 400!important;
 }
 
 .button_holder {
@@ -47,6 +48,7 @@
 .navbar-nav a {
   color: #373643;
   font-weight: 500;
+  font-size: 1.3em;
 }
 
 
@@ -60,9 +62,9 @@
 #menu_btn {
   background-color: #2555ef;
   border-radius: 5px;
-  padding: 5px 0 3px 0;
+  padding: 8px 0 7px 0;
   position: relative;
-  top: -5px;
+  top: -7px;
 }
 
 #menu_btn a {

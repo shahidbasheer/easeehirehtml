@@ -62,6 +62,7 @@
 .solution_holder p {
   color: #9197ac;
   text-align: center;
+  font-size: 1.1em;
 }
 
 .solution_holder .button_holder a.btn {
