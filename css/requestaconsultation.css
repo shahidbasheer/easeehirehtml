@@ -3,9 +3,10 @@
   background-image: linear-gradient(to bottom, #F5F5F5, #ffffff);
 }
 
-#main_content .container .row [class*="col-"]:first-of-type {
+#main_content .container .row .content [class*="col-"]:first-of-type {
   padding-right: 50px;
 }
+
 
 #main_content h2 {
   font-size: 36px;
@@ -107,4 +108,28 @@ form button[type="submit"] {
   form {
     margin-top: 50px;
   }
+
+
+    #main_content h2 {
+      margin-left: 0px;
+    }
+
+    #main_content h2~p {
+      margin-left: 0px;
+    }
+
+    #main_content [class*="col-"] .row h4 {
+      margin-top: 0px;
+    }
+
+    #main_content [class*="col-"] .row h4,
+    #main_content [class*="col-"] .row p {
+      margin-left: 0px;
+    }
+
+    #main_content ul {
+      margin-left : 0;
+    }
+
+
 }
